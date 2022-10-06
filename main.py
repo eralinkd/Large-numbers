@@ -37,7 +37,7 @@ def third(keys):
         i = 0
         while i != keys[key]:
             i += 1
-        print(f"\n{i} = {hex(keys[key])}, знайдено за {(int(time() - start_time)*1000)} мс")
+        print(f"\n{i} = {hex(keys[key])}, знайдено за {int((time() - start_time)*1000)} мс")
 
 
 while 1:
